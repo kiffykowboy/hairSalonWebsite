@@ -175,7 +175,7 @@ grid-column: 1;
 .fa-facebook{
   margin-right: 10%;
 }
-@media (max-width: 837px){
+@media (max-width: 1000px){
   header{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -210,5 +210,8 @@ grid-column: 1;
     position:static;
     background-color: #519194;
   }
+  .has-border{
+    padding: 10px;
   }
+}
    

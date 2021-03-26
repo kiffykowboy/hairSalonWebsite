@@ -46,29 +46,7 @@ nav{
   background-color: #ffffff;
 
 }
-@media (max-width: 837px){
-  header{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-  .logo{
-    width: 133px;
-    grid-row: 1/2;
-    margin-top: 0px;
-    position: relative;
     
-  }
-  nav{
-    grid-column: 1/-1;
-    grid-row: 2/-1;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-
-
-
-
 
 
 #foot{
@@ -95,4 +73,29 @@ nav{
 }
 .fa-facebook{
   margin-right: 10%;
+}
+
+@media (max-width: 1000px){
+  header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .logo{
+    width: 133px;
+    grid-row: 1/2;
+    margin-top: 0px;
+    position: relative;
+    
+  }
+  nav{
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .has-border{
+    padding: 10px;
+  }
 }
